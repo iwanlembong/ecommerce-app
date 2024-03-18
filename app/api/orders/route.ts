@@ -75,4 +75,4 @@ export const POST = auth(async (req: any) => {
       }
     )
   }
-})
+}) as any
